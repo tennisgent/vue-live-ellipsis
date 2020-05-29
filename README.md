@@ -11,6 +11,10 @@ yarn add vue-live-ellipsis
 npm i --save vue-live-ellipsis
 ```
 
+## Live Demo
+
+You can see a live demo [here on Codesandbox](https://codesandbox.io/s/busy-gagarin-dlfg0?file=/src/App.vue)
+
 ## Basic Usage
 
 ```html
