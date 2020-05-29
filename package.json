@@ -1,10 +1,10 @@
 {
   "name": "vue-live-ellipsis",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Vue component for truncating text with ellipsis based on CSS constraints, with live recalcuation",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vue-live-ellipsis src/components/index.js",
+    "build": "vue-cli-service build --target lib --name vue-live-ellipsis src/components/Ellipsis.vue",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "demo": "vue-cli-service build --dest demo"

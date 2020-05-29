@@ -1,10 +1,19 @@
 <meta charset="utf-8">
 <title>vue-live-ellipsis demo</title>
+<script src="https://unpkg.com/vue"></script>
 <script src="./vue-live-ellipsis.umd.js"></script>
 
 <link rel="stylesheet" href="./vue-live-ellipsis.css">
 
 
+<div id="app">
+  <demo></demo>
+</div>
+
 <script>
-console.log(vue-live-ellipsis)
+new Vue({
+  components: {
+    demo: vue-live-ellipsis
+  }
+}).$mount('#app')
 </script>
