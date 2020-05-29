@@ -1,8 +1,5 @@
 <template>
-	<div
-		class="ellipsis-content"
-		ref="content"
-	/>
+	<div ref="content" />
 </template>
 
 <script>
@@ -131,20 +128,3 @@ export default {
 	},
 }
 </script>
-
-<style scoped>
-.ellipsis-container {
-	max-width: 100%;
-	overflow: hidden;
-}
-.ellipsis-container.multi-line {
-	height: 100%;
-}
-.ellipsis-content {
-	display: inline;
-	white-space: nowrap;
-}
-.ellipsis-content.multi-line {
-	white-space: normal;
-}
-</style>

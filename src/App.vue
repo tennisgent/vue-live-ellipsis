@@ -83,7 +83,7 @@
 </template>
 
 <script>
-import Ellipsis from "./components/Ellipsis";
+import Ellipsis from "./components";
 
 export default {
   name: "App",
